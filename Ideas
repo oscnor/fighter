@@ -1,0 +1,41 @@
+Fighter
+
+
+Map:
+
+Alt A;
+    We could use a list of basic map textures, building the map by basic small squares.
+    This would enable the creation of new maps on the go.
+
+Alt B;
+    We create the map elements as different objects, adding them togheter as we see fit in the map.
+
+Alt C;
+    Using an image as the map, we just create the collosion parameters,
+
+Alt D;
+    Suggestions??
+
+
+
+Characters:
+
+Using basic figures like circle, square, triangle.
+Creating each character using a single type of figure.
+
+	 Character A;
+	 	   Torso-triangle, legs-triangle, head-triangle.
+	 Character B;
+	 	   Torso-circle, legs-circle, head-circle.
+
+Using this system we build the characters like Rayman (no joints).
+This system should enable us to simplify animations.
+
+
+
+
+Fighting system:
+
+Using some basic punch, kick + jump, crouch.
+Each characthers special move.
+Different hitpoints depending on where u hit the person
