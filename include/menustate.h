@@ -1,7 +1,7 @@
 #ifndef MENUSTATE_H
 #define MENUSTATE_H
 
-#include <GameState.h>
+#include "gamestate.h"
 
 
 class MenuState : public GameState

@@ -14,7 +14,7 @@ public:
 private:
 
     sf::Window *window;
-    GameStateManager gameStateManager(sf::Window *window);
+    GameStateManager *gameStateManager(sf::Window *window);
 };
 
 #endif // GAME_H

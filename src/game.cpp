@@ -1,4 +1,4 @@
-#include "game.h"
+#include "../include/game.h"
 
 Game::Game()
 {
@@ -9,12 +9,14 @@ Game::Game()
 Game::~Game()
 {
     delete window;
+    delete gameStateManager;
 }
 
 
 void Game::run()
 {
 
+  gameStateManager->currentState->update();
     // run the program as long as the window is open
     while (window->isOpen())
     {
